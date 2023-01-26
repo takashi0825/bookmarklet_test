@@ -15,7 +15,7 @@ function save_file() {
     a.href=bloburl;
     a.click();
 }
-// target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
-// alert(target_frame.style.backgroundColor);
-alert("hoge");
+target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
+alert(target_frame.style.backgroundColor);
+// alert("hoge");
 save_file();
