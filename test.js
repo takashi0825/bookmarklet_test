@@ -1,5 +1,5 @@
-alert(location.href);
 function save_file() {
+    alert(location.href);
     Array.prototype.forEach.call(
         document.getElementsByClassName('TextWithTruncation__TheButton-sc-1wolf3g-0'), function(elem){elem.click()}
     );
@@ -16,4 +16,5 @@ function save_file() {
     a.href=bloburl;
     a.click();
 }
+alert(location.href);
 save_file();
