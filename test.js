@@ -15,5 +15,6 @@ function save_file() {
     a.href=bloburl;
     a.click();
 }
-document.body.style.backgroundColor = "#ff0000";
+target_frame = document.getElementById("UserProfile__Container");
+target_frame.style.backgroundColor = "#ff0000";
 save_file();
