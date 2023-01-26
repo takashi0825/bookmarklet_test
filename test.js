@@ -16,5 +16,5 @@ function save_file() {
     a.click();
 }
 target_frame = document.getElementById("UserProfile__Container-sc-100fi4a-0");
-target_frame.style.backgroundColor = "#ff0000";
+alert(target_frame.style.backgroundColor);
 save_file();
