@@ -16,7 +16,7 @@ function save_file() {
     a.click();
 }
 target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
-var x = target_flame.style.backgroundColor
+var x = document.body.style.backgroundColor
 alert(x);
 // alert("hoge");
 save_file();
