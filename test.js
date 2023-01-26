@@ -15,8 +15,10 @@ function save_file() {
     a.href=bloburl;
     a.click();
 }
-var target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
-target_frame[0].style.backgroundColor = "#ff0000";
-alert(x);
-// alert("hoge");
-save_file();
+// var target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
+// target_frame[0].style.backgroundColor = "#ff0000";
+if (location.href == "https://admin.wantedly.com/scouts/users/h/MTU5NjI2NjAw") {
+    alert("確認済み");
+} else {
+    save_file();
+}
