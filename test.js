@@ -17,7 +17,11 @@ function save_file() {
 }
 // var target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
 // target_frame[0].style.backgroundColor = "#ff0000";
-if (location.href == "https://admin.wantedly.com/scouts/users/h/MTU5NjI2NjAw") {
+var checked_url = [
+    "https://admin.wantedly.com/scouts/users/h/MTY2OTU0OTgw",
+    "https://admin.wantedly.com/scouts/users/h/MTU5NjI2NjAw"
+];
+if (checked_url.includes(location.href)) {
     alert("確認済み");
 } else {
     save_file();
