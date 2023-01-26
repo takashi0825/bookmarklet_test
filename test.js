@@ -15,8 +15,8 @@ function save_file() {
     a.href=bloburl;
     a.click();
 }
-target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
-var x = document.body.style.backgroundColor
+var target_frame = document.getElementsByClassName("UserProfile__Container-sc-100fi4a-0");
+var x = target_frame.style.backgroundColor
 alert(x);
 // alert("hoge");
 save_file();
